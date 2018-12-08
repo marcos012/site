@@ -1,19 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule, } from '@angular/common';
-import { BrowserModule  } from '@angular/platform-browser';
-import { Routes, RouterModule } from '@angular/router';
 
-const routes: Routes =[
-    { path: '', redirectTo: 'index', pathMatch: 'full' }
-];
+import { Routes } from '@angular/router';
+import { BateraComponent } from './projects/batera/batera.component';
+import { HomeComponent } from './home/home.component';
 
-@NgModule({
-    imports: [
-        CommonModule,
-        BrowserModule,
-        RouterModule.forRoot(routes)
-    ],
-    exports: [
-    ],
-})
-export class AppRoutingModule { }
+export const ROUTES: Routes = [
+    { path: '', component: HomeComponent },
+    { path: 'batera', component: BateraComponent }
+]
