@@ -43,38 +43,3 @@ export class BateraComponent implements OnInit {
     audio.play();
   }
 }
-
-
-/*
-const ativo = false;
-let play;
-click = (e) => {
-    let audio = document.querySelector('#' + e.code);
-    if (audio) {
-        audio.currentTime = 0;
-        audio.play();
-    }
-    if (e.code === 'KeyB') {
-        fullG();
-    }
-}
-fullG = () => {
-    if (ativo === false) {
-        ativo = true;
-        play = setInterval(playG, 950);
-    } else {
-        ativo = false;
-        clearInterval(play);
-    }
-}
-playG = () => {
-    let audio = document.querySelector('#KeyG');
-    audio.currentTime = 0;
-    audio.play();
-}
-document.addEventListener('keypress', click);
-
-
-
-
-*/
