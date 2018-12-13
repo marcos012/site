@@ -77,5 +77,5 @@ $ nvm alias default 8.11.1
 $ nvm use default
 ```
 
-## Sass by:
+## CSS style by:
 + [creativetimofficial](https://creativetimofficial.github.io/now-ui-kit-angular/index)
