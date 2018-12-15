@@ -46,7 +46,7 @@ $default-color:              #888 !default;
 $default-states-color:       lighten($default-color, 6%) !default;
 $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 
-$primary-color:              #f96332 !default;
+$primary-color:              rgba(130, 117, 248,1) !default;
 $primary-states-color:       lighten($primary-color, 6%) !default;
 $primary-color-opacity:      rgba(249, 99, 50, .3) !default;
 $primary-color-alert:        rgba(249, 99, 50, .8) !default;
@@ -252,3 +252,6 @@ $social-google-state-color:        darken(#dd4b39, 5%) !default;
 
 $social-linkedin: 			         #0077B5 !default;
 $social-linkedin-state-color:        darken(#0077B5, 5%) !default;
+
+//Custom
+$fancy-blue: rgba(130, 117, 248,1);

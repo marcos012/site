@@ -13,7 +13,8 @@ import { FooterComponent } from './footer/footer.component'
 import { ContactComponent } from './contact/contact.component'
 import { BateraComponent } from './projects/batera/batera.component'
 import { ROUTES } from './app.routing';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { MoreProjectsComponent } from './more-projects/more-projects.component'
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { HomeComponent } from './home/home.component'
         FooterComponent,
         ContactComponent,
         BateraComponent,
-        HomeComponent
+        HomeComponent,
+        MoreProjectsComponent
     ],
     imports: [
         BrowserAnimationsModule,
