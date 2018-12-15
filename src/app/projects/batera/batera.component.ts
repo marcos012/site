@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./batera.component.scss']
 })
 export class BateraComponent implements OnInit {
-  
-  private active: boolean = false
+
+  private active = false
   private play: any
   private audio: any
 
-  constructor() { 
+  constructor() {
     document.addEventListener('keyup', this.click)
   }
 
