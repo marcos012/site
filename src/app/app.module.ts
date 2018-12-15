@@ -15,6 +15,7 @@ import { BateraComponent } from './projects/batera/batera.component'
 import { ROUTES } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { MoreProjectsComponent } from './more-projects/more-projects.component'
+import { RouterLinkStubDirective } from './shared/testing';
 
 @NgModule({
     declarations: [
@@ -28,14 +29,14 @@ import { MoreProjectsComponent } from './more-projects/more-projects.component'
         ContactComponent,
         BateraComponent,
         HomeComponent,
-        MoreProjectsComponent
+        MoreProjectsComponent,
+        RouterLinkStubDirective
     ],
     imports: [
         BrowserAnimationsModule,
         NgbModule.forRoot(),
         FormsModule,
         RouterModule.forRoot(ROUTES)
-    
     ],
     providers: [],
     bootstrap: [AppComponent]
