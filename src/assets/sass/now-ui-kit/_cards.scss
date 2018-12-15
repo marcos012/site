@@ -96,3 +96,11 @@
         padding-right: 0;
     }
 }
+
+.card-zoom {
+    transition: all 0.9s ease;
+}
+
+.card-zoom:hover {
+    transform: scale(1.04);
+}
