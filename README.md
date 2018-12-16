@@ -1,7 +1,7 @@
 # Página Pessoal
 
 ## Tecnologias
- - Angular 2
+ - Angular 7
  - Sass
  - HTML5
  - CSS3
@@ -20,17 +20,17 @@ $ ng serve
 
 ## Deploy GitHub.io
 ```
-$ ng build
+$ npm build
 ```
 ```
-$ ng build --prod --base-href https://marcos012.github.io/site/
+$ npm build-prod
 ```
 ```
-$ ngh
+$ npm deploy
 ```
 ## Acesse
 
-https://marcos012.github.io/site/
+https://marcos012.github.io/
 
 ## Instalar Node.Js
 Windows: https://nodejs.org/en/download/
