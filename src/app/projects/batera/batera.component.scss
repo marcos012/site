@@ -1,9 +1,9 @@
 .batera {
     font-size: 10px;
     background-image: url('http://i.imgur.com/b9r5sEL.jpg'); 
-    background-size: cover;
+    // background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 10vh; 
+    padding-bottom: 14.5vh; 
   }
   .keys {
     display: flex;
@@ -35,16 +35,18 @@
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
   }
-  
+  $bateraClick: #101113;
   kbd {
     display: block;
     font-size: 4rem;
-    
+    &:active {
+      background-color: $bateraClick;
+     }
   }
-  
-  kbd:active {
-    background-color: #101113;
-   }
+
+  .back-batera {
+    background-color: $bateraClick 
+  }
   
   .sound {
     font-size: 1.2rem;
@@ -52,3 +54,4 @@
     letter-spacing: .1rem;
     color: #ffc600;
   }
+
