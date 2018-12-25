@@ -41,6 +41,14 @@
     font-size: 4rem;
   }
   
+  kbd:active {
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    padding: 1rem .2rem;
+    width: 4.5rem;
+    height: 5rem;
+  }
+
   .sound {
     font-size: 1.2rem;
     text-transform: uppercase;
