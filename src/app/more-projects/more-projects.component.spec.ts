@@ -3,8 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { MoreProjectsComponent } from './more-projects.component';
 import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
-import { RouterLink } from '@angular/router';
-import { RouterLinkStubDirective } from 'app/shared/testing';
+import { RouterLinkStubDirective } from '../shared/testing';
 
 describe('MoreProjectsComponent', () => {
   let component: MoreProjectsComponent;
