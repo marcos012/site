@@ -1,45 +1,29 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-batera',
   templateUrl: './batera.component.html',
   styleUrls: ['./batera.component.scss']
 })
-export class BateraComponent implements OnInit {
+export class BateraComponent {
 
-  private active = false
-  private play: any
-  private audio: any
+  private audio: any;
 
   constructor() {
-    document.addEventListener('keyup', this.click)
+    document.addEventListener('keyup', this.press);
   }
 
-  ngOnInit() { }
+  press = (e: any) => {
+    this.playSound('#' + e.code);
+  }
 
   click = (e: any) => {
-    this.audio = document.querySelector('#' + e.code);
-    if (this.audio) {
-      this.audio.currentTime = 0
-      this.audio.play()
-    }
-    if (e.code === 'keyB') {
-      this.fullG()
-    }
+    this.playSound(e);
   }
 
-  fullG = () => {
-    if (this.active === false) {
-      this.active = true
-      this.play = setInterval(this.playG, 950);
-    } else {
-      this.active = false
-      clearInterval(this.play)
-    }
-  }
-  playG = (audio: any) => {
-    audio = document.querySelector('#KeyG');
-    audio.currentTime = 0;
-    audio.play();
+  private playSound(e: any) {
+    this.audio = document.querySelector(e);
+    this.audio.currentTime = 0;
+    this.audio.play();
   }
 }
