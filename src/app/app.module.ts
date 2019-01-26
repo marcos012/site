@@ -16,6 +16,7 @@ import { ROUTES } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { MoreProjectsComponent } from './more-projects/more-projects.component';
 import { RouterLinkStubDirective } from './shared/testing';
+import { KnowledgesComponent } from './knowledges/knowledges.component';
 
 @NgModule({
     declarations: [
@@ -30,7 +31,8 @@ import { RouterLinkStubDirective } from './shared/testing';
         BateraComponent,
         HomeComponent,
         MoreProjectsComponent,
-        RouterLinkStubDirective
+        RouterLinkStubDirective,
+        KnowledgesComponent
     ],
     imports: [
         BrowserAnimationsModule,
