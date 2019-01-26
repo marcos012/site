@@ -1,5 +1,7 @@
 # Página Pessoal
 
+https://marcos012.github.io/
+
 ## Tecnologias
  - Angular 7
  - Sass
@@ -28,9 +30,6 @@ $ npm build-prod
 ```
 $ npm deploy
 ```
-## Acesse
-
-https://marcos012.github.io/
 
 ## Instalar Node.Js
 Windows: https://nodejs.org/en/download/
