@@ -26,21 +26,20 @@ export class NavbarComponent implements OnInit {
         html.classList.add('nav-open');
 
         this.sidebarVisible = true;
-    };
+    }
     sidebarClose() {
         const html = document.getElementsByTagName('html')[0];
         this.toggleButton.classList.remove('toggled');
         this.sidebarVisible = false;
         html.classList.remove('nav-open');
-    };
+    }
     sidebarToggle() {
         if (this.sidebarVisible === false) {
             this.sidebarOpen();
         } else {
             this.sidebarClose();
         }
-    };
-
+    }
     isDocumentation() {
         const titlee = this.location.prepareExternalUrl(this.location.path());
         if (titlee === '/documentation') {

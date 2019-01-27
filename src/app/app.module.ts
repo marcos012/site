@@ -36,7 +36,7 @@ import { KnowledgesComponent } from './knowledges/knowledges.component';
     ],
     imports: [
         BrowserAnimationsModule,
-        NgbModule.forRoot(),
+        NgbModule,
         FormsModule,
         RouterModule.forRoot(ROUTES)
     ],
