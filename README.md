@@ -58,6 +58,10 @@ $ bash install_nvm.sh
 $ source ~/.profile
 ```
 ```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+```
 $ nvm ls-remote
 ```
 ```
