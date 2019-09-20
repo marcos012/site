@@ -20,17 +20,6 @@ $ npm install -g @angular/cli
 $ ng serve
 ```
 
-## Deploy GitHub.io
-```
-$ npm build
-```
-```
-$ npm build-prod
-```
-```
-$ npm deploy
-```
-
 ## Instalar Node.Js
 Windows: https://nodejs.org/en/download/
 
