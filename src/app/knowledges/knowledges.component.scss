@@ -1,33 +1,36 @@
-.line-principal {
-    display: flex; 
-    flex-direction: row; 
+.col-lg-2, .col-md-4, .col-sm-4, .col-xs-6 {
+    display: flex;
     justify-content: center; 
-    padding: 10px 20px 20px 10px;
 }
 
-.item-list {
-    width: 60px; 
-    height: 60px; 
-    margin: 10px
-}
-
-.first-item {
-    width: 55px;
+.col-xs-6 {
+    width: 50%;
 }
 
 .card-image {
-    width: 80px; 
-    height: 90px;
-    margin-right: 10px;
-    padding-top: 5px;
-    background-color: #eeeeee !important; 
+    width: 85px;
+    height: 115px;
+    margin-left: 5px;
+    padding-top: 15px;
     box-shadow: 0px 0px 0px 0px #eeeeee !important;
 }
 
-.html {
-    width: 80px; 
-    height: 90px; 
-    margin-right: 10px;
-    background-color: #eeeeee !important; 
-    box-shadow: 0px 0px 0px 0px #eeeeee !important;
+.carousel-control-next {
+    float: right;
+}
+.carousel-control-prev {
+    float: left;
+}
+  
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #333333;
+}
+  
+@media(min-width: 576px) {
+    .carousel-control-next {
+        right: -10%;
+    }   
+    .carousel-control-prev {
+        left: -10%;
+    }
 }
