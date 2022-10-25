@@ -11,4 +11,8 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
   }
 
+  get age(): number {
+    return new Date().getFullYear() - 1999;
+  }
+
 }
